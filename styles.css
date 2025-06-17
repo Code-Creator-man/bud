@@ -1,4 +1,3 @@
-/* Modern CSS Reset and Base Styles */
 :root {
     --primary-color: #f6e6bc;
     --secondary-color: #ebcb8b;
@@ -19,7 +18,7 @@
     box-sizing: border-box;
 }
 
-/* Smooth theme transitions */
+
 * {
     transition: background-color 0.3s ease, 
                 color 0.3s ease, 
@@ -39,18 +38,18 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Base style updates */
+
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
 }
 
-/* Global link styles */
+
 a {
     text-decoration: none;
 }
 
-/* Navigation */
+
 .navbar {
     position: fixed;
     top: 0;
@@ -65,7 +64,7 @@ a {
     z-index: 1000;
 }
 
-/* Navbar updates */
+
 .navbar {
     background-color: var(--nav-bg);
     backdrop-filter: blur(10px);
@@ -127,7 +126,7 @@ a {
     width: 100%;
 }
 
-/* Hero Section */
+
 .hero {
     min-height: 100vh;
     display: flex;
@@ -138,7 +137,7 @@ a {
     text-align: center;
 }
 
-/* Hero section updates */
+
 .hero {
     background: var(--bg-color);
     position: relative;
@@ -177,7 +176,7 @@ a {
     margin: 0 auto 3rem;
 }
 
-/* Sections */
+
 section {
     background-color: var(--section-bg);
     transition: background-color 0.3s ease;
@@ -187,13 +186,12 @@ section:nth-child(even) {
     background-color: var(--bg-color);
 }
 
-/* Features Section */
-.features {
+features {
     padding: 6rem 0;
     background-color: var(--bg-color);
 }
 
-/* Features section updates */
+
 .features {
     background-color: var(--dark-accent);
 }
@@ -222,7 +220,7 @@ section:nth-child(even) {
     box-shadow: 0 4px 14px var(--shadow);
 }
 
-/* Feature Cards */
+
 .feature-card {
     background: var(--card-bg);
     border-radius: 16px;
@@ -244,7 +242,7 @@ section:nth-child(even) {
     animation: float 3s ease-in-out infinite;
 }
 
-/* Mission section */
+
 .mission {
     background-color: var(--bg-color);
     padding: 6rem 0;
@@ -276,7 +274,7 @@ section:nth-child(even) {
     margin-bottom: 1.5rem;
 }
 
-/* About Section */
+
 .about {
     padding: 6rem 0;
     background-color: var(--accent-color);
@@ -294,7 +292,7 @@ section:nth-child(even) {
     text-align: center;
 }
 
-/* Contact Section */
+
 .contact {
     padding: 6rem 0;
     background-color: var(--bg-color);
@@ -324,7 +322,7 @@ input, textarea {
     transition: border-color 0.3s ease;
 }
 
-/* Form elements update */
+
 input, select, textarea {
     background-color: var(--input-bg);
     border: none;
@@ -346,7 +344,6 @@ textarea {
     resize: vertical;
 }
 
-/* Buttons */
 .cta-button, .submit-button {
     display: inline-block;
     padding: 1rem 2rem;
@@ -360,7 +357,7 @@ textarea {
     cursor: pointer;
 }
 
-/* Button updates */
+
 .cta-button {
     padding: 16px 32px;
     font-size: 1.1rem;
@@ -386,14 +383,14 @@ textarea {
     box-shadow: 0 8px 16px var(--shadow);
 }
 
-/* Footer */
+
 footer {
     background-color: var(--text-color);
     color: white;
     padding: 3rem 0;
 }
 
-/* Footer updates */
+
 footer {
     background-color: var(--dark-accent);
     border-top: 1px solid var(--primary-color);
@@ -454,7 +451,7 @@ footer {
     opacity: 0.8;
 }
 
-/* Animations */
+
 @keyframes digitalRain {
     0% {
         background-position: 0% 0%;
@@ -497,7 +494,7 @@ footer {
     }
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .nav-menu {
         display: none;
